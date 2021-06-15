@@ -2,7 +2,8 @@
 MIPS-hex-conversion (python) realize the conversion between MIPS assembly and machine code.
 
 **supported MIPS assembly:** (in constant.py)
-```opcode_dict = {
+```
+opcode_dict = {
     '000000': 'R',
     '000001': 'bltz/bgez',
     '000010': 'j',
